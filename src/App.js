@@ -21,6 +21,7 @@ function reducer(state, { type, payload }) {
           overwrite: false,
         };
       }
+
       if (payload.digit === '0' && state.currentOperand === '0') {
         return state;
       }
